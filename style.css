@@ -1,0 +1,25 @@
+.komorka {
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 100px;
+    font-size: 60px;
+    cursor: pointer;
+}
+
+#gra {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#plansza {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 310px;
+    margin: auto;
+    background-color: white;
+}
+
+body {
+    background-color: #b2b2b2;
+}
